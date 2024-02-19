@@ -1,0 +1,109 @@
+body {
+  /* background-color: #fed9ed; */
+  background: rgb(254, 217, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 217, 237, 1) 0%,
+    rgba(243, 104, 188, 1) 100%
+  );
+  font-family: "Nunito", sans-serif;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+
+  cursor: pointer;
+}
+
+nav {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  margin: 1rem 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  color: black;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+ul li {
+  margin-right: 2.5rem;
+  text-decoration: none;
+  transition: text-decoration 1s ease;
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+ul li:hover {
+  text-decoration: underline;
+}
+
+.get-started {
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 1);
+  border: 1px solid grey;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.get-started:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.center-part {
+  margin: 5rem 3rem 0;
+  display: grid;
+  padding: 0 2rem;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+}
+
+h1 {
+  font-weight: 100;
+  font-family: "Pacifico", cursive;
+}
+
+.coffee-para {
+  font-size: 1.5rem;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.coffee-cup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.starbucks {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+.starbucks:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
