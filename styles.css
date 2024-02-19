@@ -1,12 +1,12 @@
 body {
   /* background-color: #fed9ed; */
-  background: rgb(254, 217, 237);
+  background: rgb(235, 227, 213);
   background: linear-gradient(
     90deg,
-    rgba(254, 217, 237, 1) 0%,
-    rgba(243, 104, 188, 1) 100%
+    rgba(235, 227, 213, 1) 0%,
+    rgba(245, 189, 143, 1) 100%
   );
-  font-family: "Nunito", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 10px;
   margin: 0;
   padding: 0;
@@ -20,9 +20,9 @@ header {
 }
 
 nav {
-  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
-  margin: 1rem 4rem;
+  margin: 1rem 3.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -55,7 +55,7 @@ ul li:hover {
   cursor: pointer;
   border: none;
   font-weight: bold;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(118, 69, 59, 1);
   border: 1px solid grey;
   font-size: 1.3rem;
   border-radius: 1rem;
@@ -80,10 +80,14 @@ ul li:hover {
 h1 {
   font-weight: 100;
   font-family: "Pacifico", cursive;
+  font-size: 2.5rem;
+  color: #76453b;
 }
 
 .coffee-para {
-  font-size: 1.5rem;
+  color: #333333;
+  font-weight: 400;
+  font-size: 1.4rem;
 }
 
 .title {
